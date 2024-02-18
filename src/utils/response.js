@@ -10,7 +10,6 @@ exports.STATUSCODE = {
 /**
  * @function successResponse
  * @description function to return API success response
- 
  */
 exports.successResponse = (res, message, result = []) => {
   return res
@@ -21,7 +20,6 @@ exports.successResponse = (res, message, result = []) => {
 /**
  * @function clientErrorResponse
  * @description function to return API client error response
- 
  */
 exports.clientErrorResponse = (
   res,
@@ -34,7 +32,6 @@ exports.clientErrorResponse = (
 /**
  * @function unAuthResponse
  * @description function to return unauth response
- 
  */
 exports.unAuthResponse = (res) => {
   return res
@@ -45,7 +42,6 @@ exports.unAuthResponse = (res) => {
 /**
  * @function serverErrorResponse
  * @description function to return API server error response
- 
  */
 exports.serverErrorResponse = (res) => {
   return res

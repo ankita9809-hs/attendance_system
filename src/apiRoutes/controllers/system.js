@@ -152,7 +152,7 @@ exports.addCheckOut = async (req, res) => {
 /**
  * @function getInstructorData
  * @description function to get instructors report month wise
- * @method get
+ * @method GET
  */
 exports.getInstructorData = async (req, res) => {
   try {
